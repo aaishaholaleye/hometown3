@@ -1,0 +1,183 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+h1, h3{
+    margin: 0;
+}
+
+.container-title{
+    background: url(images/torshovcorrect.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 345px;
+    padding-top: 120px;
+    color: white;
+    line-height: 36.8px;
+}
+
+.visit-message{
+    border: 1px solid black;
+    display: inline;
+    padding: 3px 12px 5px 12px;
+    background: #1D3557;
+    border-radius: 10px;
+}
+
+.enjoy-message{
+    margin-top: 16px;
+    width: 410px;
+    height: 50px;
+    background-color: #457B9D;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:9px 30px 2px 30px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.activities{
+    background-color: #F1FAEE;
+    width: 100%;
+    height: 420px;
+    
+}
+
+.activities-msg{
+    padding-top: 40px;
+    padding-bottom: 55px;
+    color: #1D3557;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.reason-section{
+    /* border:1px solid black; */
+    height: 240px;
+    width: 200px;
+}
+
+.reasons{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.theatre-title, .park-title, .sport-title, .theatre-sub, .park-sub, .sport-sub{
+    color: #1D3557;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+
+.theater-title{
+    width: 183px;
+    height: 32px;
+    margin-bottom: 17px;
+}
+
+.park-title{
+    width: 162px;
+    height: 35px;
+}
+
+.sport-title{
+    width: 197px;
+    height: 38px;
+}
+
+.images{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+   
+}
+.images, h4, p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reason1-img{
+    background: url(images/theatre.jpg);
+    background-size: cover;
+    margin-bottom: 23px;
+}
+
+.reason2-img{
+    background: url(images/park.jpg);
+    background-size: cover;
+    margin-bottom: 23px;
+}
+
+.reason3-img{
+    background: url(images/sports.jpg);
+    background-size: cover;
+    margin-bottom: 23px;
+}
+
+.sport-sub, .park-sub{
+    margin-top: -5px;
+}
+
+#activity1, #activity2{
+    margin-right: 100px;
+}
+
+.guide{
+    border-radius: 10px;
+    background-color: #A8DADC;
+    margin: 50px auto;
+    width: 400px;
+    height: 294px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.guideimgmain{
+    width: 180px;
+    margin-top: 23px;
+    margin-left: 13px;
+    margin-bottom: 23px;
+    border-radius: 10px;
+    height: 245px;
+}
+
+.guidetitle{
+    margin-top: 49px;
+    margin-bottom: 14px;
+    color: #1D3557;
+}
+
+.guidetalk{
+    font-style: italic;
+    color: #1D3557;
+    margin-left: 7px;
+}
+
+.guidename{
+    color: #1D3557;
+    margin-right: 13px;
+    margin-bottom: 84px;
+}
